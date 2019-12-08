@@ -1,0 +1,21 @@
+{
+  "name": "cart-checkout-unit-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ",
+    "coverage":"./node_modules/.bin/nyc npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1",
+    "request": "^2.88.0",
+    "sinon": "^7.5.0",
+    "sinon-chai": "^3.3.0"
+  }
+}
